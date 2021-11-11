@@ -20,7 +20,7 @@
     "node": ">=7.6.0"
   },
   "dependencies": {
-    "@sourcebox/lxc": "ebertmi/sourcebox-lxc",
+    "@sourcebox/lxc": "manumts/sourcebox-lxc",
     "bluebird": "^3.5.1",
     "bluebird-retry": "^0.11.0",
     "chalk": "^2.3.2",
