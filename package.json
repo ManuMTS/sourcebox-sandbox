@@ -1,0 +1,43 @@
+{
+  "name": "@sourcebox/sandbox",
+  "description": "Easy-to-use sandbox library and command line utility",
+  "version": "1.0.0",
+  "author": "Johannes Henninger <johannes@henninger.io>",
+  "contributors": [
+    "Michael Ebert <michael.ebert@gmail.com>"
+  ],
+  "license": "GPL-3.0+",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhenninger/sourcebox-sandbox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jhenninger/sourcebox-sandbox/issues"
+  },
+  "main": "lib/sourcebox.js",
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "dependencies": {
+    "@sourcebox/lxc": "ebertmi/sourcebox-lxc",
+    "bluebird": "^3.5.1",
+    "bluebird-retry": "^0.11.0",
+    "chalk": "^2.3.2",
+    "csv-parse": "^2.2.0",
+    "fs-extra": "^4.0.3",
+    "inquirer": "^4.0.2",
+    "lodash": "^4.17.5",
+    "request": "^2.85.0",
+    "semver": "^5.5.0",
+    "shortid": "^2.2.8",
+    "text-table": "^0.2.0",
+    "yargs": "^8.0.2"
+  },
+  "scripts": {
+    "install": "make"
+  },
+  "bin": {
+    "sourcebox": "./bin/sourcebox.js"
+  }
+}
